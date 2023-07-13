@@ -77,7 +77,7 @@ body {
 /* hero */
 #hero {
   background-image: url(/images//header3.jpg);
-  height: 100vh;  
+  height: 100dvh;  
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
