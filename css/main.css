@@ -135,6 +135,7 @@ background-size: cover;
   height: 300px;
   width: 100%;
   object-fit: fill;
+  border-radius: 8px;
 }
 
 .collection-img span {
@@ -155,6 +156,8 @@ background-size: cover;
   height: 400px;
   width: 100%;
   object-fit: fill;
+  border-radius: 8px;
+
 }
 
 .limited-offer span {
@@ -164,16 +167,8 @@ background-size: cover;
 /* .special-list .btn {
   padding: 8px 20px !important;
 } */
-.limited-offer img {
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-.limited-offer:hover img {
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
-}
+
+
 /* top deal */
 .top-deal-img span {
   top: 20px;
@@ -187,6 +182,7 @@ background-size: cover;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  border-radius: 8px;
 }
 .top-deal-img:hover img {
   -webkit-transform: scale(1.2);
@@ -210,6 +206,9 @@ background-size: cover;
 .offers-content .btn {
   border-color: transparent !important;
 }
+
+/* blog */
+
 
 /* about */
 #about {
@@ -243,6 +242,7 @@ background-size: cover;
 /* footer */
 footer .brand {
   font-family: var(--lg-font);
+  color: var(--blue);
   letter-spacing: 2px;
 }
 footer a {
