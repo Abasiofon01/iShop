@@ -4,7 +4,6 @@
   --lg-font: "Kaisei Tokumin", serif;
   --sm-font: "Poppins", sans-serif;
   --blue: rgb(43, 181, 223);
-  --header-height:75px;
 }
 body {
   font-family: var(--sm-font);
@@ -47,10 +46,9 @@ body {
 
 /* navbar */
 .navbar {
-  background-color: rgba(0, 0, 0, 0.384) !important;
+  background-color: rgba(42, 41, 41, 0.766) !important;
   -webkit-box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
   box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
-  height: var(--header-height);
 }
 .navbar-brand img {
   width: 30px;
@@ -59,13 +57,14 @@ body {
   letter-spacing: 2px;
   color: var(--blue);
   font-family: var(--lg-font);
+  font-size: 12px;
 }
 .navbar-toggler {
   color: transparent;
 }
 .navbar-toggler-icon {
-  color: var(--blue) !important;
-  background-color: var(--blue);
+  /* color: var(--blue) !important; */
+  background-color: rgb(129, 125, 125);
 }
 .nav-link:hover {
   color: var(--blue) !important;
@@ -79,11 +78,18 @@ body {
   background-image: url(/images//header3.jpg);
   height: 100dvh;  
   background-repeat: no-repeat;
-  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.363);
+  background-blend-mode: darken;
+background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  @media (max-width:425px) {
+    height: 50dvh;
+  }
+
 }
 
 .hero-text-btn-wrapper{
