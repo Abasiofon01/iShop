@@ -50,6 +50,7 @@ body {
   -webkit-box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
   box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
 }
+
 .navbar-brand img {
   width: 30px;
 }
@@ -78,7 +79,7 @@ body {
   background-image: url(/images//header3.jpg);
   height: 100dvh;  
   background-repeat: no-repeat;
-  background-color: rgba(0, 0, 0, 0.363);
+  background-color: rgba(0, 0, 0, 0.564);
   background-blend-mode: darken;
 background-size: cover;
   display: flex;
@@ -126,10 +127,9 @@ background-size: cover;
   color: #fff !important;
 }
 
-/* .collection-img {
-  height: 300px;
-  width: 100%;
-} */
+.collection-list{
+  transition: opacity 0.3s ease-in-out;
+}
 
 .collection-img img {
   height: 300px;
@@ -148,10 +148,7 @@ background-size: cover;
 
 /* limited offer */
 
-/* .limited-offer {
-  height: 400px;
-  width: 100%;
-} */
+
 .limited-offer img {
   height: 400px;
   width: 100%;
@@ -164,9 +161,6 @@ background-size: cover;
   top: 20px;
   right: 20px;
 }
-/* .special-list .btn {
-  padding: 8px 20px !important;
-} */
 
 
 /* top deal */
@@ -207,7 +201,7 @@ background-size: cover;
   border-color: transparent !important;
 }
 
-/* blog */
+
 
 
 /* about */
