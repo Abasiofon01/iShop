@@ -15,7 +15,7 @@ function filterItems(category) {
 
 window.onscroll = function() {
   const navbar = document.querySelector(".navbar");
-  if (window.scrollY > 850) {
+  if (window.scrollY > 700) {
     navbar.classList.add("sticky");
   } else {
     navbar.classList.remove("sticky");
