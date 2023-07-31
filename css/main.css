@@ -46,9 +46,21 @@ body {
 
 /* navbar */
 .navbar {
-  background-color: rgba(42, 41, 41, 0.766) !important;
-  -webkit-box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+ 
+  background-color: rgba(0, 0, 0, 0)!important;
+	height: 70px;
+  z-index: 1000;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  
+}
+
+.navbar.sticky {
+  background-color: rgba(0, 0, 0, 0.805)!important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.211);
 }
 
 .navbar-brand img {
